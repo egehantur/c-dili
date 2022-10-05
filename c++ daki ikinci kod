@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	int a = 10;
+	int b = 3, c = 4;
+	int x;
+	printf("\n a: %d, b: %d, c: %d",a,b,c);
+  printf("\n a: 10, b: 3, c: 4");
+  a = 20; b = 30; c = 40;
+  printf("\n a: %d, b: %d, c: %d",a,b,c);
+  printf("\n a: 10, b: 3, c: 4");
+	printf("Bir sayı giriniz:");
+	scanf("%d",&d);
+	printf("\n girilensayı: %d",x);
+}

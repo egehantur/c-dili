@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+	int a = 10;
+	int b = 3, c = 4;
+	int x;
+	printf("\n a: %d, b: %d, c: %d",a,b,c);
+  printf("\n a: 10, b: 3, c: 4");
+  a = 20; b = 30; c = 40;
+  printf("n b t \\ \" \b\t\n a: %d, b: %d, c: %d",a,b,c);
+  printf("\n a: 10, b: 3, c: 4");
+  printf("Bir sayı giriniz:");
+  scanf("%d",&x);
+  printf("\n girilensayı: %5d",x);
+  float pi = 3.14;
+  printf("%8.4f",pi);
+  int egehan1 = 10;
+}

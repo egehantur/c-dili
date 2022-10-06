@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+	//a isminde bir değişken main fonksiyonu
+	//içerisinde tanımlanıyor
+	int a=10;
+	{
+		//küme parantezleri ile bir alt blok oluştu
+		int a = 5;
+		printf("\na:%d",a);
+	}
+	printf("\na:%d",a);
+	return 0;
+}

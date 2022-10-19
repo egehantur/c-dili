@@ -3,16 +3,16 @@ int main(){
 	int i;
 	printf("Fazladan çalışma saatinizi giriniz: ");
 	scanf("%d",&i);
-	if(i<10)
+	if(i<=10)
 	{
 		printf("Ücretiniz %d",i*5);
 	}
-	else if(i>10&&i<20)
+	if(i>10&&i<20)
 	{
-		printf("Ücretiniz %d",i*3);
+		printf("Ücretiniz %d",10*5+(i-10)*3);
 	}
-	else
+	if(i>20)
 	{
-		printf("Ücretiniz %d",i*2);
+		printf("Ücretiniz %d",10*5+10*3+(i-20)*2);
 	}
 }

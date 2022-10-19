@@ -5,7 +5,7 @@ int main(){
 	scanf("%d",&i);
 	if(i>100)
 	{
-		printf("Disipline yürü");
+		printf("Ayıp değil mi");
 	}
 	else if(i<= 100 && i>=90)
 	{

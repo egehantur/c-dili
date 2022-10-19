@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main(){
+	int i;
+	printf("Notunuzu giriniz: ");
+	scanf("%d",&i);
+	if(i>100)
+	{
+		printf("Disipline yürü");
+	}
+	else if(i<= 100 && i>=90)
+	{
+		printf("Not AA");
+	}
+	else if(i<90 && i>=80)
+	{
+		printf("Not BA");
+	}
+	else if(i<80 && i>70)
+	{
+		printf("NOT BB");
+	}
+	else
+	{
+		printf("NOT F");
+	}
+}

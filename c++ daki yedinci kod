@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+	int i;
+	printf("Fazladan çalışma saatinizi giriniz: ");
+	scanf("%d",&i);
+	if(i<10)
+	{
+		printf("Ücretiniz %d",i*5);
+	}
+	else if(i>10&&i<20)
+	{
+		printf("Ücretiniz %d",i*3);
+	}
+	else
+	{
+		printf("Ücretiniz %d",i*2);
+	}
+}

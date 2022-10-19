@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(){
+	int i;
+	printf("Değer giriniz: ");
+	scanf("%d",&i);
+	if(i>10)
+	{
+		printf("Aferin ");
+	}
+	else if(i<10)
+	{
+		printf("Olmadı ");
+	}	
+	else
+	{
+		printf("Sayınız 10 a eşit ");
+	}
+}

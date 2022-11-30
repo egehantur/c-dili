@@ -1,0 +1,14 @@
+#include <stdio.h>
+int ortalama(int,int);
+int main(){
+	int ilk_sayi,ikinci_sayi;
+	printf("Bir sayı giriniz : ");
+	scanf("%d",&ilk_sayi);
+	printf("Bir sayı daha giriniz : ");
+	scanf("%d",&ikinci_sayi);
+	printf("Ortalaması : %d",ortalama(ilk_sayi,ikinci_sayi));
+}
+int ortalama(int a,int b){
+	return (a+b)/2;
+	
+}

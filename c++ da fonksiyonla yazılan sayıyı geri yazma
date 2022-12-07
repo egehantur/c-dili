@@ -1,0 +1,11 @@
+#include <stdio.h>
+int sayi(int);
+int main(){
+	int x;
+	printf("Bir sayı giriniz : ");
+	scanf("%d",&x);
+	printf("Sayı : %d", sayi(x));
+}
+int sayi(int x){
+	return(x);
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+int sum(int);
+int main(){
+	int x;
+	printf("Bir sayı giriniz : ");
+	scanf("%d",&x);
+	printf("Sayı : %d", sum(x));
+}
+int sum(int a){
+	if (a==0){
+		return 0;
+	}
+	printf("%d\n",a);
+	return sum(a-1);
+}
+

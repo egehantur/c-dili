@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main(){
+	int a;
+	int sayilar[10];
+	for(a=0;a<10;a++){
+		scanf("½d",&sayilar[a]);
+	}
+	for(a=0;a<10;a++){
+		scanf("%d",&sayilar[a]);
+	}
+	for(a=0;a<10;a++){
+		printf("%d",sayilar[a]);
+	}
+}

@@ -11,4 +11,8 @@ int main(){
 	for(a=0;a<10;a++){
 		printf("%d",sayilar[a]);
 	}
+	int x;
+	printf("Kaçıncı sayıyı görmek istiyorsunuz? ");
+	scanf("%d",&x);
+	printf("%d",sayilar[x]);
 }
